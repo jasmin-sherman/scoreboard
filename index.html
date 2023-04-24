@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- <h2>JAS</h2> -->
+            <div>
+                <h3>HOME</h3>
+                <div class="score-tile" id="home-score">0</div>
+                    <button class="btn-add-1-point" onclick="addHome(1)">+1</button>
+                    <button class="btn-add-2-points"onclick="addHome(2)">+2</button>
+                    <button class="btn-add-3-points" onclick="addHome(3)">+3</button>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <div class="score-tile" id="guest-score">0</div>
+                    <button class="btn-add-1-point" onclick="addGuest(1)">+1</button>
+                    <button class="btn-add-2-points"onclick="addGuest(2)">+2</button>
+                    <button class="btn-add-3-points" onclick="addGuest(3)">+3</button>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <h2>EV</h2>
+            <div>
+                <h3>HOME</h3>
+                <div class="score-tile" id="home-score-ev">0</div>
+                    <button class="btn-add-1-point" onclick="addToScore('home-score-ev', 1)">+1</button>
+                    <button class="btn-add-2-points"onclick="addToScore('home-score-ev', 2)">+2</button>
+                    <button class="btn-add-3-points" onclick="addToScore('home-score-ev', 3)">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-tile" id="guest-score-ev">0</div>
+                    <button class="btn-add-1-point" onclick="addToScore('guest-score-ev', 1)">+1</button>
+                    <button class="btn-add-2-points"onclick="addToScore('guest-score-ev', 2)">+2</button>
+                    <button class="btn-add-3-points" onclick="addToScore('guest-score-ev', 3)">+3</button>
+            </div>
+        </div> -->
+        <script src="index.js"></script>
+    </body>
+</html>
